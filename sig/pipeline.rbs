@@ -1,0 +1,7 @@
+class Pipeline
+  def initialize: (Array[Element] elements) -> void
+  def call: (_Subject input) -> untyped
+
+  private
+  attr_reader elements: Array[Element]
+end
